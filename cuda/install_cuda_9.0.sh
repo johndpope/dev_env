@@ -16,7 +16,7 @@ chmod +x cuda_runfile.run
 rm cuda_runfile.run
 
 # add path to ~/.bashrc
-echo 'export LD_LIBRARY_PATH=~/cuda_9.0/lib64' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=~/cuda_9.0/lib64:/users/grad/xjiang/cuda_9.0/extras/CUPTI/lib64' >> ~/.bashrc
 
 # to activate
 # source ~/.bashrc
