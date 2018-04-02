@@ -16,5 +16,8 @@ dependencies:
   - pandas
   - gensim
   - beautifulsoup4
-  - pip
   - jupyter
+  - PIL
+  - pip
+  - pip:
+    - pathos
