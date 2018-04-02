@@ -14,6 +14,7 @@ if [[ $(program_is_installed conda) -eq 0 ]]; then
     ./Miniconda_installer.sh
 
     echo 'updating conda...'
+    conda update -n base conda
     conda update conda
     conda update conda-build
 else

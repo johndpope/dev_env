@@ -5,8 +5,7 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.6
-  - tensorflow-gpu
+  - python=3
   - tqdm
   - spacy
   - six
@@ -17,7 +16,8 @@ dependencies:
   - gensim
   - beautifulsoup4
   - jupyter
-  - PIL
   - pip
   - pip:
     - pathos
+    - pillow
+    - tensorflow-gpu
