@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # CUDA Toolkit Archive
 #   https://developer.nvidia.com/cuda-toolkit-archive
 
@@ -16,7 +18,7 @@ chmod +x cuda_runfile.run
 rm cuda_runfile.run
 
 # add path to ~/.bashrc
-echo 'export LD_LIBRARY_PATH=~/cuda_9.0/lib64:/users/grad/xjiang/cuda_9.0/extras/CUPTI/lib64' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=~/cuda_9.0/lib64:~/cuda_9.0/extras/CUPTI/lib64' >> ~/.zshrc
 
 # to activate
 # source ~/.bashrc

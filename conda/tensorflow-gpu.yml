@@ -21,3 +21,5 @@ dependencies:
     - pathos
     - pillow
     - tensorflow-gpu
+    - networkx
+    - graphviz
