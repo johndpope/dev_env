@@ -56,6 +56,7 @@ if [[ $(program_is_installed git) -eq 0 ]]; then
     git config --global user.name "xiangdal"
     git config --global user.email "xiang.jiang@dal.ca"
     git config --global push.default matching
+    git config --global credential.helper "cache --timeout=3600"
 else
     echo 'git is already installed'
 fi
